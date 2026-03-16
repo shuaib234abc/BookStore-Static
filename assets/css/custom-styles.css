@@ -107,3 +107,10 @@
 }
 
 .span_price{font-size: 1.6em; color:royalblue; font-weight: 600; text-decoration: underline; }
+
+.pull-left-custom{
+    float: left;
+    padding-right: 1.2em;
+}
+
+.img-shopping-cart-product{width: 72px; height: auto}
