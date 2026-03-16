@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>My Awesome Bookstore</title>
+        <link 
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+            rel="stylesheet" 
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+            crossorigin="anonymous">
+        <link href="/assets/css/custom-styles.css" rel="stylesheet" />
+        <script 
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+            crossorigin="anonymous"></script>
+        <script
+            src="https://code.jquery.com/jquery-4.0.0.slim.min.js"
+            integrity="sha256-8DGpv13HIm+5iDNWw1XqxgFB4mj+yOKFNb+tHBZOowc="
+            crossorigin="anonymous"></script>       
+    </head>
+    <body>
+
+        <div class="container">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+                <div class="col-md-3 mb-2 mb-md-0">
+                    <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                        <img src="/assets/images/logo-v2.png" />
+                    </a>
+                </div>
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <li>
+                        <a href="#" class="nav-link px-2">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-2">Cart</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-2">FAQs</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-2">About</a>
+                    </li>
+                </ul>
+                <div class="col-md-3 text-end">
+                    <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                </div>
+            </header>
+        </div>
+
+        <!-- this design taken from https://bootsnipp.com/snippets/ElDZl#google_vignette -->
+        <div class="div-categorized-books-container container mb-4">
+            <h5 class="section-title h1">Featured Books</h5>
+            <div class="row">
+                <div class="div-book-info-wrapper col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="/assets/images/books/Screenshot-book19.png" alt="">
+                            </a>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a class="text-reset" href="#"><h3 class="card-title display-4">Letters from Palestine</h3></a>
+                            <h6>$199.99</h6>
+                            <a class="btn btn-dark my-2" href="#" role="button">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-book-info-wrapper col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="/assets/images/books/Screenshot-book7.png" alt="">
+                            </a>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a class="text-reset" href="#"><h3 class="card-title display-4">ইংলিশে দুর্বলদের জন্য ইংলিশ থেরাপি</h3></a>
+                            <h6>$199.99</h6>
+                            <a class="btn btn-dark my-2" href="#" role="button">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-book-info-wrapper col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="/assets/images/books/Screenshot-book11.png" alt="">
+                            </a>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a class="text-reset" href="#"><h3 class="card-title display-4">পরিবর্তন ও প্রত্যাবর্তন</h3></a>
+                            <h6>$199.99</h6>
+                            <a class="btn btn-dark my-2" href="#" role="button">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-book-info-wrapper col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="/assets/images/books/Screenshot-book5.png" alt="">
+                            </a>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a class="text-reset" href="#"><h3 class="card-title display-4">ইসলামী ইতিহাস</h3></a>
+                            <h6>$199.99</del></h6>
+                            <a class="btn btn-dark my-2" href="#" role="button">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- this design taken from https://bootsnipp.com/snippets/ElDZl#google_vignette -->
+        <div class="div-categorized-books-container div-container-with-alt-color container mb-4">
+            <h5 class="section-title h1">Islamic Books</h5>
+            <div class="row">
+                <div class="div-book-info-wrapper col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="/assets/images/books/Screenshot-book3.png" alt="">
+                            </a>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a class="text-reset" href="#"><h3 class="card-title display-4">The Productive Muslim</h3></a>
+                            <h6>$199.99</h6>
+                            <a class="btn btn-dark my-2" href="#" role="button">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-book-info-wrapper col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="/assets/images/books/Screenshot-book8.png" alt="">
+                            </a>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a class="text-reset" href="#"><h3 class="card-title display-4">ডাবল স্ট্যান্ডার্ড</h3></a>
+                            <h6>$199.99</h6>
+                            <a class="btn btn-dark my-2" href="#" role="button">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-book-info-wrapper col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="/assets/images/books/Screenshot-book9.png" alt="">
+                            </a>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a class="text-reset" href="#"><h3 class="card-title display-4">অবাধ্যতার ইতিহাস</h3></a>
+                            <h6>$199.99</h6>
+                            <a class="btn btn-dark my-2" href="#" role="button">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-book-info-wrapper col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="/assets/images/books/Screenshot-book25.png" alt="">
+                            </a>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a class="text-reset" href="#"><h3 class="card-title display-4">ইতিকাফ</h3></a>
+                            <h6>$199.99</del></h6>
+                            <a class="btn btn-dark my-2" href="#" role="button">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- this design taken from https://bootsnipp.com/snippets/ElDZl#google_vignette -->
+        <div class="div-categorized-books-container container mb-4">
+            <h5 class="section-title h1">Fiction</h5>
+            <div class="row">
+                <div class="div-book-info-wrapper col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="/assets/images/books/Screenshot-book16.png" alt="">
+                            </a>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a class="text-reset" href="#"><h3 class="card-title display-4">কাকাবাবু সমগ্র ১</h3></a>
+                            <h6>$199.99</h6>
+                            <a class="btn btn-dark my-2" href="#" role="button">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-book-info-wrapper col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="/assets/images/books/Screenshot-book17.png" alt="">
+                            </a>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a class="text-reset" href="#"><h3 class="card-title display-4">Adventure to the Future World</h3></a>
+                            <h6>$199.99</h6>
+                            <a class="btn btn-dark my-2" href="#" role="button">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-book-info-wrapper col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="/assets/images/books/Screenshot-book23.png" alt="">
+                            </a>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a class="text-reset" href="#"><h3 class="card-title display-4">The Tiger of Palestine</h3></a>
+                            <h6>$199.99</h6>
+                            <a class="btn btn-dark my-2" href="#" role="button">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-book-info-wrapper col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 mt-4">
+                    <div class="card shadow">
+                        <div class="card-body text-center">
+                            <a href="#">
+                                <img class="card-img-top" src="/assets/images/books/Screenshot-book26.png" alt="">
+                            </a>
+                            <div class="text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <a class="text-reset" href="#"><h3 class="card-title display-4">থ্রিলার ভয়ঙ্কর</h3></a>
+                            <h6>$199.99</del></h6>
+                            <a class="btn btn-dark my-2" href="#" role="button">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+
+    </body>
+</html>
