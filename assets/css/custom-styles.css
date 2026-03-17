@@ -108,6 +108,10 @@
 
 .span_price{font-size: 1.6em; color:royalblue; font-weight: 600; text-decoration: underline; }
 
+.c_bold{font-weight: bold;}
+
+.c_underline{text-decoration: underline;}
+
 .pull-left-custom{
     float: left;
     padding-right: 1.2em;
@@ -124,3 +128,16 @@
 .panel-for-login-form{background-color: #ffffff;padding:2rem}
 
 .panel-for-login-form .panel-body{border-bottom:none}
+
+#div_disclaimer{
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    width:320px;
+    padding:1.4em;
+    background-color:red;
+    color:#ffffff;
+    border-radius:1.3em;
+    font-size:1.2em;
+    z-index:5000000;
+}
