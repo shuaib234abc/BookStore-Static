@@ -6,5 +6,5 @@
 - DISCLAIMER - The book cover images used in this application have been taken from Rokomari.com (https://www.rokomari.com). No malicious intent is present for using these images.
 
 ## Running the application
-- I am running this application in my PC at http://localhost:8000. So "http://localhost:8000" is hard-coded in anchor tags / inside the menu.
-- If your port number is different than 8000, please change all the places of the code where "http://localhost:8000" is hardcoded.
+- I am running this application in my PC at http://localhost:8000. So "http://localhost:8000" is hard-coded in assets --> js --> common-scripts.js
+- If your port number is different, please change the port from assets --> js --> common-scripts.js

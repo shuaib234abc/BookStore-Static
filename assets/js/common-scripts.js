@@ -1,0 +1,1 @@
+var commonBaseUrl = "http://localhost:8000";

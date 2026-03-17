@@ -172,19 +172,20 @@
                 </div>
             </div>
             
+            <script type="text/javascript" src="/assets/js/common-scripts.js"></script>
             <script type="text/javascript">
                 $(document).ready(function(){
                     $("#btn_loginLink").click(function(e){
                         e.preventDefault();
-                        window.location.href = "http://localhost:8000/login.html";
+                        window.location.href = commonBaseUrl + "/login.html";
                     });
                     $("#btn_contShoppingLink").click(function(e){
                         e.preventDefault();
-                        window.location.href = "http://localhost:8000/index.html";
+                        window.location.href = commonBaseUrl + "/index.html";
                     });
                     $("#btn_checkoutLink").click(function(e){
                         e.preventDefault();
-                        window.location.href = "http://localhost:8000/checkout.html";
+                        window.location.href = commonBaseUrl + "/checkout.html";
                     });
                 });
             </script>            
