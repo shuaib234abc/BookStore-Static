@@ -145,11 +145,11 @@
                                             <td>&nbsp;</td>
                                             <td>&nbsp;</td>
                                             <td colspan="3" style="text-align: right;">
-                                                <button class="btn btn-info d-inline-flex align-items-center" type="button">
+                                                <button id="btn_contShoppingLink" class="btn btn-info d-inline-flex align-items-center" type="button">
                                                     Continue Shopping
                                                 </button>
 
-                                                <button class="btn btn-success d-inline-flex align-items-center" type="button">
+                                                <button id="btn_checkoutLink" class="btn btn-success d-inline-flex align-items-center" type="button">
                                                     Checkout
                                                 </button>                                        
                                             </td>
@@ -177,6 +177,14 @@
                     $("#btn_loginLink").click(function(e){
                         e.preventDefault();
                         window.location.href = "http://localhost:8000/login.html";
+                    });
+                    $("#btn_contShoppingLink").click(function(e){
+                        e.preventDefault();
+                        window.location.href = "http://localhost:8000/index.html";
+                    });
+                    $("#btn_checkoutLink").click(function(e){
+                        e.preventDefault();
+                        window.location.href = "http://localhost:8000/checkout.html";
                     });
                 });
             </script>            
