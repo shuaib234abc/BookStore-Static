@@ -23,26 +23,26 @@
         <div class="container">
             <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
                 <div class="col-md-3 mb-2 mb-md-0">
-                    <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                    <a href="/index.html" class="d-inline-flex link-body-emphasis text-decoration-none">
                         <img src="/assets/images/logo-v2.png" />
                     </a>
                 </div>
                 <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
                     <li>
-                        <a href="#" class="nav-link px-2">Home</a>
+                        <a href="/index.html" class="nav-link px-2">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link px-2">Cart</a>
+                        <a href="/cart.html" class="nav-link px-2">Cart</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link px-2">FAQs</a>
+                        <a href="/faq.html" class="nav-link px-2">FAQs</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link px-2">About</a>
+                        <a href="/about.html" class="nav-link px-2">About</a>
                     </li>
                 </ul>
                 <div class="col-md-3 text-end">
-                    <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                    <button id="btn_loginLink" type="button" class="btn btn-outline-primary me-2">Login</button>
                 </div>
             </header>
         </div>
@@ -295,6 +295,15 @@
                 </div>
             </div>
         </div>        
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#btn_loginLink").click(function(e){
+                    e.preventDefault();
+                    window.location.href = "http://localhost:8000/login.html";
+                });
+            });
+        </script>
 
     </body>
 </html>

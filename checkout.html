@@ -200,29 +200,30 @@
             </div>
             
             <script type="text/javascript">
-
-                $("#div_formControlsForBkash").css("display", "none");
-                $("#div_formControlsForBkash").css("visibility", "hidden");
-                $("#div_formControlsForNagad").css("display", "none");
-                $("#div_formControlsForNagad").css("visibility", "hidden");
-
-                $('#paymentMethod_cod').click(function(){
+                $(document).ready(function(){
                     $("#div_formControlsForBkash").css("display", "none");
                     $("#div_formControlsForBkash").css("visibility", "hidden");
                     $("#div_formControlsForNagad").css("display", "none");
                     $("#div_formControlsForNagad").css("visibility", "hidden");
-                });
-                $('#paymentMethod_bkash').click(function(){
-                    $("#div_formControlsForBkash").css("display", "block");
-                    $("#div_formControlsForBkash").css("visibility", "visible");
-                    $("#div_formControlsForNagad").css("display", "none");
-                    $("#div_formControlsForNagad").css("visibility", "hidden");
-                });
-                $('#paymentMethod_nagad').click(function(){
-                    $("#div_formControlsForBkash").css("display", "none");
-                    $("#div_formControlsForBkash").css("visibility", "hidden");
-                    $("#div_formControlsForNagad").css("display", "block");
-                    $("#div_formControlsForNagad").css("visibility", "visible");
+
+                    $('#paymentMethod_cod').click(function(){
+                        $("#div_formControlsForBkash").css("display", "none");
+                        $("#div_formControlsForBkash").css("visibility", "hidden");
+                        $("#div_formControlsForNagad").css("display", "none");
+                        $("#div_formControlsForNagad").css("visibility", "hidden");
+                    });
+                    $('#paymentMethod_bkash').click(function(){
+                        $("#div_formControlsForBkash").css("display", "block");
+                        $("#div_formControlsForBkash").css("visibility", "visible");
+                        $("#div_formControlsForNagad").css("display", "none");
+                        $("#div_formControlsForNagad").css("visibility", "hidden");
+                    });
+                    $('#paymentMethod_nagad').click(function(){
+                        $("#div_formControlsForBkash").css("display", "none");
+                        $("#div_formControlsForBkash").css("visibility", "hidden");
+                        $("#div_formControlsForNagad").css("display", "block");
+                        $("#div_formControlsForNagad").css("visibility", "visible");
+                    });
                 });
             </script>
     </body>
